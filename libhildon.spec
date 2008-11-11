@@ -5,7 +5,7 @@
 Summary:	Hildon libraries
 Name:		libhildon
 Version:	2.0.6
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		System/Libraries
 License:	LGPLv2+
 URL:		http://live.gnome.org/Hildon
