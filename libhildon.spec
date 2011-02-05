@@ -5,23 +5,17 @@
 Summary:	Hildon libraries
 Name:		libhildon
 Version:	2.0.6
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Libraries
 License:	LGPLv2+
 URL:		http://live.gnome.org/Hildon
 Source0:	http://repository.maemo.org/pool/diablo/free/libh/libhildon/libhildon_%{version}-1.tar.gz
 Patch0:		libhildon-2.0.6-poname.diff
 BuildRequires:	esound-devel
-BuildRequires:	gettext
-BuildRequires:	gettext-devel
-BuildRequires:	gettext-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	libGConf2-devel
-BuildRequires:	libtool
-BuildRequires:	libxi-devel
-BuildRequires:	pkgconfig
+BuildRequires:	libx11-devel
 BuildRequires:	png-devel
-BuildRequires:	X11-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot  
 
 %description
