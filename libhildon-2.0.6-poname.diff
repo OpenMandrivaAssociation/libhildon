@@ -1,0 +1,10 @@
+--- po/Makefile.am	2007-03-08 15:13:27.000000000 +0100
++++ po/Makefile.am.oden	2008-10-29 16:40:59.000000000 +0100
+@@ -4,6 +4,7 @@
+ EXTRA_DIST 				= $(foreach po,$(languages),$(po).po) POTFILES.in README
+ 
+ MAINTAINERCLEANFILES 			= Makefile.in POTFILES
++PACKAGE := libhildon
+ 
+ %.mo: %.po
+ 	msgfmt --statistics -v -o$(top_builddir)/po/$@ $(srcdir)/$<
