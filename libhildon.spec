@@ -8,7 +8,7 @@ Version:	2.0.6
 Release:	%mkrel 5
 Group:		System/Libraries
 License:	LGPLv2+
-URL:		http://live.gnome.org/Hildon
+URL:		https://live.gnome.org/Hildon
 Source0:	http://repository.maemo.org/pool/diablo/free/libh/libhildon/libhildon_%{version}-1.tar.gz
 Patch0:		libhildon-2.0.6-poname.diff
 BuildRequires:	esound-devel
