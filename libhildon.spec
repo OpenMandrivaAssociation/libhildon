@@ -11,6 +11,11 @@ License:	LGPLv2+
 URL:		https://live.gnome.org/Hildon
 Source0:	http://repository.maemo.org/pool/diablo/free/libh/libhildon/libhildon_%{version}-1.tar.gz
 Patch0:		libhildon-2.0.6-poname.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	esound-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	libGConf2-devel
